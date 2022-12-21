@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra.me</title>
+    <link rel="stylesheet" href="cardstyle.css">
+    
+  
+</head>
+
+<!-- BACKGROUND ESTA SEM COR -->
+
+<body class="gradient config">
+
+    <header>
+        
+        <h1 class="navtitulo">THE BEST PROJECTS</h1>
+
+        <div class="header">
+
+          <div class="checkbox-container"> <!--Inicio do hamburguer-->
+              <div class="checkbox-wrapper">
+                  <input type="checkbox" id="toggle">
+                  <label class="checkbox" for="toggle">
+                      <div class="trace"></div>
+                      <div class="trace"></div>
+                      <div class="trace"></div>
+                  </label>
+
+                  <div class="menu"></div> <!--Menu-->
+                  <nav class="menu-items">
+                      <ul>
+                          <li>
+                              <a href="index.html">Home</a>
+                          </li>
+                          <li>
+                              <a href="about-me.html">About Me</a>
+                          </li>
+                          <li>
+                              <a href="projects.html">Projects</a>
+                          </li>
+                          <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+       
+    </header>  
+    <div class="container">
+       
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>
+                   
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae tempore 
+                    omnis odit eveniet sequi, expedita quas aperiam. Magnam, ullam vel quidem omnis accusantium itaque voluptate temporibus mollitia cumque corrupti.</p>
+                    <a href="#">See Project</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>
+                    Card Dois
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae tempore 
+                    omnis odit eveniet sequi, expedita quas aperiam. Magnam, ullam vel quidem omnis accusantium itaque voluptate temporibus mollitia cumque corrupti.</p>
+                    <a href="#">See Project</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>
+                    Card Três
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae tempore 
+                    omnis odit eveniet sequi, expedita quas aperiam. Magnam, ullam vel quidem omnis accusantium itaque voluptate temporibus mollitia cumque corrupti.</p>
+                    <a href="#">See Project</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/vanilla-tilt.babel.js"> </script>
+    <script> VanillaTilt.init(document.querySelectorAll('.card'), {
+            max: 25,
+            speed:400,
+            glare: true,
+
+    }) </script>
+    
+</body>
+</html>
